@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+weeks = ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6"]
+savings = [20, 35, 50, 65, 80, 100]
+
+plt.plot(weeks, savings, marker="o")
+plt.title("My Savings Progress")
+plt.xlabel("Weeks")
+plt.ylabel("Savings")
+plt.show()
+
+plt.bar(weeks, savings)
+plt.title("My Savings Progress")
+plt.xlabel("Weeks")
+plt.ylabel("Savings")
+plt.show()
